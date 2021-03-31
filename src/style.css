@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *
 {
     margin: 0;
@@ -9,12 +10,23 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background-color: black;
 }
-
+body{
+    color:white;
+    font-size: 2rem;
+    display: flex;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
 .webgl
 {
     position: fixed;
     top: 0;
     left: 0;
     outline: none;
+    mix-blend-mode: lighten;
 }
